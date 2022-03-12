@@ -17,3 +17,7 @@ echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee /etc/apt/sources.lis
 sudo apt-get update
 
 sudo apt-get install neo4j
+
+## pip 加国内源
+
+-i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
