@@ -10,11 +10,7 @@ tar -zxvf jdk-11_linux-x64_bin.tar.gz
 
 #添加下载源安装neo4j
 
-wget -O - https://debian.neo4j.org/neotechnology.gpg.key | sudo apt-key add -
-
-echo 'deb https://debian.neo4j.org/repo stable/' | sudo tee /etc/apt/sources.list.d/neo4j.list
-
-sudo apt-get update
+https://debian.neo4j.com/?_ga=2.177150752.483637433.1650104793-1625601382.1650104793
 
 sudo apt-get install neo4j
 
