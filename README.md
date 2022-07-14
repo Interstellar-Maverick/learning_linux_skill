@@ -17,3 +17,7 @@ sudo apt-get install neo4j
 ## pip 加国内源
 
 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+
+clash .config
+https://free886.herokuapp.com/clash/config
