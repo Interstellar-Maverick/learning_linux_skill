@@ -1,6 +1,0 @@
-安装需要openGL,或者编译需要的时候，出错
-
-
-解决方法，1查看有没有文件
-·       2 链接文件
-sudo ln /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0 /usr/lib/x86_64-linux-gnu/libGL.soe6-dev
